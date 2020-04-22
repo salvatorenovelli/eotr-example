@@ -1,0 +1,18 @@
+---
+# EOTR data for the following release
+release:
+  version: 1.2.5
+  applicationName: Awesome App
+  status: stable
+
+# End to End tests (integration tests)
+endToEnd:
+  passedCount: 100
+  failedCount: 0
+  report: EndToEnd.xml
+
+# Tested component versions
+components:
+  front-end: front-end/stable/19.7.56/tests.yaml
+  microservice-api: microservice-api/stable/3.0.1/tests.yaml
+  authentication-api: authentication-api/stable/1.2.5/tests.yaml
