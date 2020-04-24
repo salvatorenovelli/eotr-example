@@ -14,7 +14,7 @@ endToEnd:
 # Tested component versions
 components:
   - name: "front-end"
-    testResultUrl": "front-end/stable/19.7.56/tests.yaml"
+    testResultUrl: "front-end/stable/19.7.56/tests.yaml"
   - name: "microservice-api"
     testResultUrl: "microservice-api/stable/3.0.1/tests.yaml"
   - name: "authentication-api"
