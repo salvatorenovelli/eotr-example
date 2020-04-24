@@ -3,7 +3,7 @@
 release:
   version: 1.2.5
   applicationName: Awesome App
-  status: pass
+  status: stable
 
 # End to End tests (integration tests)
 endToEnd:
