@@ -10,7 +10,7 @@ endToEnd:
   passedCount: 100
   failedCount: 0
   environment: "UAT"
-  report: EndToEnd.xml
+  report: awesome-app/stable/1.2.5/EndToEnd.xml
 
 # Tested component versions
 components:
