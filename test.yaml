@@ -9,6 +9,7 @@ release:
 endToEnd:
   passedCount: 100
   failedCount: 0
+  environment: "UAT"
   report: EndToEnd.xml
 
 # Tested component versions
