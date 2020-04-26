@@ -8,9 +8,11 @@ release:
 # End to End tests (integration tests)
 endToEnd:
   dateExecuted: 2020-02-02T16:45:00.00-02:00
-  passedCount: 100
-  failedCount: 0
   environment: "UAT"
+  stats:
+    passed: 89
+    failed: 0
+    skipped: 0
   report: awesome-app/stable/1.2.5/EndToEnd.xml
 
 # Tested component versions
