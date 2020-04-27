@@ -1,0 +1,28 @@
+---
+# EOTR data for the following release
+release:
+  version: 1.2.5
+  applicationName: Awesome App
+  status: failed
+
+# End to End tests (integration tests)
+endToEnd:
+  dateExecuted: 2020-02-02T16:45:00.00-02:00
+  environment: "UAT"
+  stats:
+    passed: 89
+    failed: 1
+    skipped: 9
+  report: awesome-app/stable/1.2.5/EndToEnd.xml
+
+# Tested component versions
+components:
+  - name: "front-end"
+    testStatus: pass
+    testResultUrl: "front-end/stable/19.7.56/tests.yaml"
+  - name: "microservice-api"
+    testStatus: pass
+    testResultUrl: "microservice-api/stable/3.0.1/tests.yaml"
+  - name: "authentication-api"
+    testStatus: pass
+    testResultUrl: "authentication-api/stable/1.2.5/tests.yaml"
