@@ -11,8 +11,8 @@ endToEnd:
   environment: "UAT"
   stats:
     passed: 89
-    failed: 1
-    skipped: 9
+    failed: 3
+    skipped: 11
   report: awesome-app/stable/1.2.5/EndToEnd.xml
 
 # Tested component versions
